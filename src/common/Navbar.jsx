@@ -12,6 +12,9 @@ const Navbar = () => {
          <NavLink to="/about">About</NavLink>
       </li>
       <li className="font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2">
+         <NavLink to="/services">Services</NavLink>
+      </li>
+      <li className="font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2">
          <NavLink to="/contact">Contact</NavLink>
       </li>
 
