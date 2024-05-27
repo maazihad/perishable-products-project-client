@@ -11,6 +11,7 @@ import Login from '../pages/Authentication/Login/Login';
 import SignUp from '../pages/Authentication/SignUp/SignUp';
 import AllProducts from '../pages/AllProducts/AllProducts';
 import SecureRoute from './SecureRoute';
+import AddProduct from '../pages/AddProduct/AddProduct';
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,14 @@ const router = createBrowserRouter([
         element: (
           <SecureRoute>
             <AllProducts></AllProducts>
+          </SecureRoute>
+        ),
+      },
+      {
+        path: 'add-product',
+        element: (
+          <SecureRoute>
+            <AddProduct></AddProduct>
           </SecureRoute>
         ),
       },

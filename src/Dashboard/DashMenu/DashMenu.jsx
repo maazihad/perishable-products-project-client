@@ -47,6 +47,9 @@ const DashMenu = () => {
           <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
             <NavLink to='/dashboard/all-products'>All Products</NavLink>
           </li>
+          <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
+            <NavLink to='/dashboard/add-product'>Add Product</NavLink>
+          </li>
         </ul>
       </div>
     </>
