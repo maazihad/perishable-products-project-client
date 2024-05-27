@@ -10,7 +10,7 @@ const DashboardLayer = () => {
 
       <div className='drawer lg:drawer-open'>
         <input id='my-drawer-2' type='checkbox' className='drawer-toggle' />
-        <div className='drawer-content flex flex-col items-start w-full'>
+        <div className='drawer-content  items-start w-full'>
           <Outlet />
           <label
             htmlFor='my-drawer-2'

@@ -1,94 +1,112 @@
 {
-   "products": [
-      {
-         "id": 1,
-         "product_name": "Rattan Storage Basket",
-         "product_img": "https://images-cdn.ubuy.ae/6355e00fc4c0d760d071b614-rattan-storage-baskets-3-pack.jpg",
-         "price": 25.99,
-         "features": "Handwoven, Durable, Lightweight",
-         "description": "This handwoven rattan storage basket from Gram Bangla is the perfect solution for organizing your household items. Made with durability and sustainability in mind, this lightweight basket adds a touch of natural charm to any room while keeping your belongings tidy and accessible.",
-         "rating": 4.8
-      },
-      {
-         "id": 2,
-         "product_name": "Jute Market Tote",
-         "product_img": "https://www.thetriostore.com/UserFiles/Images/b729737a-cc7c-ed11-8111-6805ca21b81d.jpeg",
-         "price": 18.50,
-         "features": "Eco-friendly, Spacious, Reusable",
-         "description": "Say goodbye to single-use plastic bags with this eco-friendly jute market tote. Crafted from natural jute fibers, this spacious tote is perfect for carrying groceries, beach essentials, or everyday items. Its sturdy construction and reusable design make it a sustainable choice for your shopping needs.",
-         "rating": 4.6
-      },
-      {
-         "id": 3,
-         "product_name": "Bamboo Cutting Board",
-         "product_img": "https://images.othoba.com/images/thumbs/0593043_bamboo-cutting-and-chopping-board-with-stainless-steel-handle-copy.jpeg",
-         "price": 22.00,
-         "features": "Antimicrobial, Knife-friendly, Easy to Clean",
-         "description": "Upgrade your kitchen with this antimicrobial bamboo cutting board. Not only is bamboo naturally resistant to bacteria, but it's also gentle on your knives, ensuring they stay sharp for longer. With its easy-to-clean surface and eco-friendly properties, this cutting board is a must-have for any culinary enthusiast.",
-         "rating": 4.9
-      },
-      {
-         "id": 4,
-         "product_name": "Wooden Coasters Set",
-         "product_img": "https://i.etsystatic.com/18110078/r/il/34835b/1629043404/il_300x300.1629043404_5crx.jpg",
-         "price": 15.75,
-         "features": "Hand-carved, Set of 4, Heat Resistant",
-         "description": "Protect your surfaces in style with this set of hand-carved wooden coasters. Each coaster is meticulously crafted from sustainable wood and features intricate designs, adding a touch of elegance to your home decor. With their heat-resistant properties, these coasters are as functional as they are beautiful.",
-         "rating": 4.7
-      },
-      {
-         "id": 5,
-         "product_name": "Palm Leaf Hand Fan",
-         "product_img": "https://cf.shopee.com.my/file/2806dacf5acabc4bacb92cd02969b6ea",
-         "price": 12.99,
-         "features": "Handmade, Lightweight, Portable",
-         "description": "Beat the heat in eco-friendly style with this handmade palm leaf hand fan. Crafted by skilled artisans, this lightweight fan is perfect for keeping cool on hot summer days. Whether you're at home or on the go, this portable accessory is a sustainable and stylish way to stay comfortable.",
-         "rating": 4.5
-      },
-      {
-         "id": 6,
-         "product_name": "Mat Leaf Placemat",
-         "product_img": "https://i.ebayimg.com/images/g/S6MAAOSwh5RiHdTl/s-l1200.webp",
-         "price": 14.50,
-         "features": "Handwoven, Heat Resistant, Eco-friendly",
-         "description": "Elevate your dining experience with these handwoven mat leaf placemats. Made from natural materials, these eco-friendly placemats not only protect your table but also add a touch of rustic charm to your meals. With their heat-resistant properties, they're as practical as they are stylish.",
-         "rating": 4.8
-      },
-      {
-         "id": 7,
-         "product_name": "Bamboo Wind Chime",
-         "product_img": "https://i.pinimg.com/originals/8a/26/5a/8a265adfa8315e6a8c26df38c8e9640f.jpg",
-         "price": 19.99,
-         "features": "Handcrafted, Soothing Sound, Weather Resistant",
-         "description": "Bring the soothing sounds of nature to your outdoor space with this handcrafted bamboo wind chime. Made from sustainable bamboo, this weather-resistant chime produces calming tones with every breeze. Whether on a patio or in a garden, it's sure to add a touch of tranquility to your surroundings.",
-         "rating": 4.7
-      },
-      {
-         "id": 8,
-         "product_name": "Jute Plant Hanger",
-         "product_img": "https://5.imimg.com/data5/FK/VP/MY-1782100/macrame-hanging-basket-pot-holder-500x500.jpg",
-         "price": 16.20,
-         "features": "Hand-knotted, Durable, Stylish",
-         "description": "Display your favorite plants in style with this hand-knotted jute plant hanger. Crafted from natural jute fibers, this durable hanger adds a bohemian touch to any indoor or outdoor space. Its sturdy construction ensures your plants stay secure while adding visual interest to your decor.",
-         "rating": 4.6
-      },
-      {
-         "id": 9,
-         "product_name": "Rattan Wall Mirror",
-         "product_img": "https://m.media-amazon.com/images/I/71Kh1XyvY4L._AC_UF894,1000_QL80_.jpg",
-         "price": 32.75,
-         "features": "Handcrafted, Boho Design, Lightweight",
-         "description": "Add a touch of natural beauty to your home decor with this handcrafted rattan wall mirror. Featuring a boho-chic design, this lightweight mirror is perfect for adding depth and style to any room. Whether in a living room or bedroom, it's sure to become a focal point of your space.",
-         "rating": 4.8
-      },
-      {
-         "id": 10,
-         "product_name": "Palm Leaf Basket",
-         "product_img": "https://livom.ca/cdn/shop/products/A4F7884D-B53D-4838-9F3C-4716C2FCF9D1.jpg?v=1660256720",
-         "price": 20.99,
-         "features": "Multi-purpose, Sturdy, Eco-friendly",
-         "description": "Versatile and eco-friendly, this palm leaf basket from Gram Bangla is the perfect blend of form and function. Whether used for storage or decoration, its sturdy construction ensures it can handle a variety of uses. Add a touch of natural charm to your home with this sustainable accessory.",
-         "rating": 4.7
-      }
-   ]
+  "products": [
+    {
+      "id": "1",
+      "product_name": "Rattan Storage Basket",
+      "product_img": "https://images-cdn.ubuy.ae/6355e00fc4c0d760d071b614-rattan-storage-baskets-3-pack.jpg",
+      "price": 25.99,
+      "features": "Handwoven, Durable, Lightweight",
+      "description": "This handwoven rattan storage basket from Gram Bangla is the perfect solution for organizing your household items. Made with durability and sustainability in mind, this lightweight basket adds a touch of natural charm to any room while keeping your belongings tidy and accessible.",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "product_name": "Jute Market Tote",
+      "product_img": "https://www.thetriostore.com/UserFiles/Images/b729737a-cc7c-ed11-8111-6805ca21b81d.jpeg",
+      "price": 18.5,
+      "features": "Eco-friendly, Spacious, Reusable",
+      "description": "Say goodbye to single-use plastic bags with this eco-friendly jute market tote. Crafted from natural jute fibers, this spacious tote is perfect for carrying groceries, beach essentials, or everyday items. Its sturdy construction and reusable design make it a sustainable choice for your shopping needs.",
+      "rating": 4.6
+    },
+    {
+      "id": "3",
+      "product_name": "Bamboo Cutting Board",
+      "product_img": "https://images.othoba.com/images/thumbs/0593043_bamboo-cutting-and-chopping-board-with-stainless-steel-handle-copy.jpeg",
+      "price": 22,
+      "features": "Antimicrobial, Knife-friendly, Easy to Clean",
+      "description": "Upgrade your kitchen with this antimicrobial bamboo cutting board. Not only is bamboo naturally resistant to bacteria, but it's also gentle on your knives, ensuring they stay sharp for longer. With its easy-to-clean surface and eco-friendly properties, this cutting board is a must-have for any culinary enthusiast.",
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "product_name": "Wooden Coasters Set",
+      "product_img": "https://i.etsystatic.com/18110078/r/il/34835b/1629043404/il_300x300.1629043404_5crx.jpg",
+      "price": 15.75,
+      "features": "Hand-carved, Set of 4, Heat Resistant",
+      "description": "Protect your surfaces in style with this set of hand-carved wooden coasters. Each coaster is meticulously crafted from sustainable wood and features intricate designs, adding a touch of elegance to your home decor. With their heat-resistant properties, these coasters are as functional as they are beautiful.",
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "product_name": "Palm Leaf Hand Fan",
+      "product_img": "https://cf.shopee.com.my/file/2806dacf5acabc4bacb92cd02969b6ea",
+      "price": 12.99,
+      "features": "Handmade, Lightweight, Portable",
+      "description": "Beat the heat in eco-friendly style with this handmade palm leaf hand fan. Crafted by skilled artisans, this lightweight fan is perfect for keeping cool on hot summer days. Whether you're at home or on the go, this portable accessory is a sustainable and stylish way to stay comfortable.",
+      "rating": 4.5
+    },
+    {
+      "id": "6",
+      "product_name": "Mat Leaf Placemat",
+      "product_img": "https://i.ebayimg.com/images/g/S6MAAOSwh5RiHdTl/s-l1200.webp",
+      "price": 14.5,
+      "features": "Handwoven, Heat Resistant, Eco-friendly",
+      "description": "Elevate your dining experience with these handwoven mat leaf placemats. Made from natural materials, these eco-friendly placemats not only protect your table but also add a touch of rustic charm to your meals. With their heat-resistant properties, they're as practical as they are stylish.",
+      "rating": 4.8
+    },
+    {
+      "id": "7",
+      "product_name": "Bamboo Wind Chime",
+      "product_img": "https://i.pinimg.com/originals/8a/26/5a/8a265adfa8315e6a8c26df38c8e9640f.jpg",
+      "price": 19.99,
+      "features": "Handcrafted, Soothing Sound, Weather Resistant",
+      "description": "Bring the soothing sounds of nature to your outdoor space with this handcrafted bamboo wind chime. Made from sustainable bamboo, this weather-resistant chime produces calming tones with every breeze. Whether on a patio or in a garden, it's sure to add a touch of tranquility to your surroundings.",
+      "rating": 4.7
+    },
+    {
+      "id": "8",
+      "product_name": "Jute Plant Hanger",
+      "product_img": "https://5.imimg.com/data5/FK/VP/MY-1782100/macrame-hanging-basket-pot-holder-500x500.jpg",
+      "price": 16.2,
+      "features": "Hand-knotted, Durable, Stylish",
+      "description": "Display your favorite plants in style with this hand-knotted jute plant hanger. Crafted from natural jute fibers, this durable hanger adds a bohemian touch to any indoor or outdoor space. Its sturdy construction ensures your plants stay secure while adding visual interest to your decor.",
+      "rating": 4.6
+    },
+    {
+      "id": "9",
+      "product_name": "Rattan Wall Mirror",
+      "product_img": "https://m.media-amazon.com/images/I/71Kh1XyvY4L._AC_UF894,1000_QL80_.jpg",
+      "price": 32.75,
+      "features": "Handcrafted, Boho Design, Lightweight",
+      "description": "Add a touch of natural beauty to your home decor with this handcrafted rattan wall mirror. Featuring a boho-chic design, this lightweight mirror is perfect for adding depth and style to any room. Whether in a living room or bedroom, it's sure to become a focal point of your space.",
+      "rating": 4.8
+    },
+    {
+      "id": "10",
+      "product_name": "Palm Leaf Basket",
+      "product_img": "https://livom.ca/cdn/shop/products/A4F7884D-B53D-4838-9F3C-4716C2FCF9D1.jpg?v=1660256720",
+      "price": 20.99,
+      "features": "Multi-purpose, Sturdy, Eco-friendly",
+      "description": "Versatile and eco-friendly, this palm leaf basket from Gram Bangla is the perfect blend of form and function. Whether used for storage or decoration, its sturdy construction ensures it can handle a variety of uses. Add a touch of natural charm to your home with this sustainable accessory.",
+      "rating": 4.7
+    },
+    {
+      "id": "19",
+      "product_name": "fafadf",
+      "product_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiB2E79LWVUoq4bDADmjZbQTQrfjuR2OKCsA&s",
+      "description": "fakfjakfja fjakjf afj a",
+      "features": "343",
+      "price": "33",
+      "rating": "5"
+    },
+    {
+      "id": "33",
+      "product_name": "fafa",
+      "product_img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "description": "fafafaf",
+      "features": "3faf",
+      "price": "33",
+      "rating": "3"
+    }
+  ]
 }
