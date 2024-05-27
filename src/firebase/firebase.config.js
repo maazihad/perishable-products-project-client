@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-   apiKey: "AIzaSyAoWfLc2SlL_qoVu4CSqWJ6ZBPPli4PMrA",
-   authDomain: "perishable-products.firebaseapp.com",
-   projectId: "perishable-products",
-   storageBucket: "perishable-products.appspot.com",
-   messagingSenderId: "486898143909",
-   appId: "1:486898143909:web:98d18436c1ee5104a6f34c"
+   apiKey: import.meta.env.VITE_APIKEY,
+   authDomain: import.meta.env.VITE_AUTHDOMAIN,
+   projectId: import.meta.env.VITE_PROJECTID,
+   storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+   messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+   appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase

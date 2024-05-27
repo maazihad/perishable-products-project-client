@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+
    return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-gray-800">
          <div className="p-8 bg-white shadow-md rounded-lg text-center w-full max-w-4xl">

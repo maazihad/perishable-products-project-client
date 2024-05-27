@@ -6,6 +6,7 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import Services from "../pages/Services/Services";
+import DashboardLayer from "../Layouts/DashboardLayer";
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
             loader: ({ params }) => fetch(`http://localhost:3000/products/${params.id}`)
          }
       ]
+   }.
+   {
+      path: "/dashboard",
+      element: <DashboardLayer></DashboardLayer>,
+
    }
 ]);
 
