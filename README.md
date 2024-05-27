@@ -6,6 +6,8 @@
 
 ## password : 123asad
 
+## ভাইয়া ঘূর্ণিঝড় এর আর ইলেকট্রিসিটি প্রবলেম এর কারণে সঠিক টাইমে কোড করে শেষ করতে পারি নাই। বিষয়টি একটু ক্ষমা সুন্দর দৃষ্টিতে দেখলে বাধিত থাকব। 01316530727
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
