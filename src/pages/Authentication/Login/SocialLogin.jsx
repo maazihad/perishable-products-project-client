@@ -6,16 +6,17 @@ import toast from 'react-hot-toast';
 import { FaGoogle } from 'react-icons/fa';
 
 const SocialLogin = () => {
+  const { googleSignIn } = useContext(AuthContext);
+
   const location = useLocation();
   const from = location.state?.from?.pathname || '/';
   const navigate = useNavigate();
-
-  const { googleSignIn } = useContext(AuthContext);
 
   const handleGoogleSignIn = () => {
     googleSignIn()
       .then((result) => {
         const loggedUser = result.user;
+        console.log(loggedUser);
         if (loggedUser) {
           Swal.fire({
             position: 'center',
@@ -35,7 +36,7 @@ const SocialLogin = () => {
       <div className='divider font-bold text-red-900'>OR</div>
       <div className='text-center space-x-6'>
         <button onClick={handleGoogleSignIn} className=''>
-          <FaGoogle className='text-red-900 text-2xl' />
+          <FaGoogle className='text-red-900 text-3xl' />
         </button>
       </div>
     </div>
