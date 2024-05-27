@@ -12,6 +12,7 @@ import SignUp from '../pages/Authentication/SignUp/SignUp';
 import AllProducts from '../pages/AllProducts/AllProducts';
 import SecureRoute from './SecureRoute';
 import AddProduct from '../pages/AddProduct/AddProduct';
+import EditProduct from '../pages/EditProduct/EditProduct';
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,16 @@ const router = createBrowserRouter([
         loader: ({ params }) =>
           fetch(`http://localhost:3000/products/${params.id}`),
       },
+      {
+        path: 'products/editProduct/:id',
+        element: (
+          <SecureRoute>
+            <EditProduct></EditProduct>
+          </SecureRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(`http://localhost:3000/products/${params.id}`),
+      },
     ],
   },
   {
@@ -64,13 +75,14 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: 'all-products',
+        path: 'all-products/',
         element: (
           <SecureRoute>
             <AllProducts></AllProducts>
           </SecureRoute>
         ),
       },
+
       {
         path: 'add-product',
         element: (

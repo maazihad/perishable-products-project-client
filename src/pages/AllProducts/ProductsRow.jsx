@@ -2,15 +2,7 @@ import { Link } from 'react-router-dom';
 
 /* eslint-disable react/prop-types */
 const ProductsRow = ({ product, handleDeleteProduct }) => {
-  const {
-    id,
-    product_name,
-    product_img,
-    price,
-    features,
-    description,
-    rating,
-  } = product;
+  const { id, product_name, product_img, price, description } = product;
 
   const handleDelete = async () => {
     await fetch(`http://localhost:3000/products/${id}`, {
@@ -51,7 +43,7 @@ const ProductsRow = ({ product, handleDeleteProduct }) => {
           </Link>
         </th>
         <th>
-          <Link to={`/products/${id}`}>
+          <Link to={`/products/editProduct/${id}`}>
             <button className='btn btn-ghost btn-xs'>Edit</button>
           </Link>
         </th>

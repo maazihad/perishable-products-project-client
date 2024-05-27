@@ -2,12 +2,12 @@
   "products": [
     {
       "id": "1",
-      "product_name": "Rattan Storage Basket",
+      "product_name": "Rattan Storage Basket-2",
       "product_img": "https://images-cdn.ubuy.ae/6355e00fc4c0d760d071b614-rattan-storage-baskets-3-pack.jpg",
-      "price": 25.99,
+      "price": "25.99",
       "features": "Handwoven, Durable, Lightweight",
       "description": "This handwoven rattan storage basket from Gram Bangla is the perfect solution for organizing your household items. Made with durability and sustainability in mind, this lightweight basket adds a touch of natural charm to any room while keeping your belongings tidy and accessible.",
-      "rating": 4.8
+      "rating": "4.8"
     },
     {
       "id": "3",
