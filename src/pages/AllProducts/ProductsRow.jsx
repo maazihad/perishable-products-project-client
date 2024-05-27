@@ -1,7 +1,16 @@
+import { Link } from 'react-router-dom';
+
 /* eslint-disable react/prop-types */
 const ProductsRow = ({ product }) => {
-  const { product_name, product_img, price, features, description, rating } =
-    product;
+  const {
+    id,
+    product_name,
+    product_img,
+    price,
+    features,
+    description,
+    rating,
+  } = product;
   return (
     <>
       <tr className='shadow-md shadow-red-400 rounded-lg'>
@@ -25,7 +34,9 @@ const ProductsRow = ({ product }) => {
         <td>{description}</td>
         <td>{price}</td>
         <th>
-          <button className='btn btn-ghost btn-xs'>details</button>
+          <Link to={`/products/${id}`}>
+            <button className='btn btn-ghost btn-xs'>details</button>
+          </Link>
         </th>
       </tr>
     </>
