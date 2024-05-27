@@ -24,14 +24,7 @@ const DashboardLayer = () => {
             <DashMenu />
           </div>
           <label htmlFor='my-drawer-2' className='drawer-overlay'></label>
-          <ul className='menu p-4 w-80  text-white font-bold'>
-            <hr />
-            {/* {isAdmin ? <AdminMenu /> : isInstructor ? <InstructorMenu /> : <UsersMenu />}
-                  <hr />
-                  <HomeMenu />
-                  <hr />
-                  <ProfileLogoutMenu /> */}
-          </ul>
+          <ul className='menu p-4 w-80  text-white font-bold'></ul>
         </div>
       </div>
     </div>

@@ -28,9 +28,11 @@ const Navbar = () => {
       <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
         <NavLink to='/contact'>Contact</NavLink>
       </li>
-      <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
-        <NavLink to='/dashboard'>Dashboard</NavLink>
-      </li>
+      {user && (
+        <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
+          <NavLink to='/dashboard'>Dashboard</NavLink>
+        </li>
+      )}
       <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
         {user ? (
           <button onClick={handleLogOut} className=''>

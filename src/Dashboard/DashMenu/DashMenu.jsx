@@ -47,15 +47,6 @@ const DashMenu = () => {
           <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
             <NavLink to='/dashboard/all-products'>All Products</NavLink>
           </li>
-          <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
-            {/* {user ? (
-            <button onClick={handleLogOut} className=''>
-              Logout
-            </button>
-          ) : (
-            <Link to='/login'>Login</Link>
-          )} */}
-          </li>
         </ul>
       </div>
     </>

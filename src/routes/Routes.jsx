@@ -10,6 +10,7 @@ import DashboardLayer from '../Layouts/DashboardLayer';
 import Login from '../pages/Authentication/Login/Login';
 import SignUp from '../pages/Authentication/SignUp/SignUp';
 import AllProducts from '../pages/AllProducts/AllProducts';
+import SecureRoute from './SecureRoute';
 
 const router = createBrowserRouter([
   {
@@ -43,19 +44,31 @@ const router = createBrowserRouter([
       },
       {
         path: '/products/:id',
-        element: <ProductDetails></ProductDetails>,
+        element: (
+          <SecureRoute>
+            <ProductDetails></ProductDetails>
+          </SecureRoute>
+        ),
         loader: ({ params }) =>
           fetch(`http://localhost:3000/products/${params.id}`),
       },
     ],
   },
   {
-    path: '/dashboard',
-    element: <DashboardLayer></DashboardLayer>,
+    path: 'dashboard',
+    element: (
+      <SecureRoute>
+        <DashboardLayer></DashboardLayer>
+      </SecureRoute>
+    ),
     children: [
       {
-        path: '/all-products',
-        element: <AllProducts></AllProducts>,
+        path: 'all-products',
+        element: (
+          <SecureRoute>
+            <AllProducts></AllProducts>
+          </SecureRoute>
+        ),
       },
     ],
   },
