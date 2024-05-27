@@ -9,6 +9,7 @@ import Services from '../pages/Services/Services';
 import DashboardLayer from '../Layouts/DashboardLayer';
 import Login from '../pages/Authentication/Login/Login';
 import SignUp from '../pages/Authentication/SignUp/SignUp';
+import AllProducts from '../pages/AllProducts/AllProducts';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,12 @@ const router = createBrowserRouter([
   {
     path: '/dashboard',
     element: <DashboardLayer></DashboardLayer>,
+    children: [
+      {
+        path: '/all-products',
+        element: <AllProducts></AllProducts>,
+      },
+    ],
   },
 ]);
 

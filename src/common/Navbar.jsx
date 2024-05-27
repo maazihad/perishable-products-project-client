@@ -9,10 +9,9 @@ const Navbar = () => {
 
   const handleLogOut = () => {
     logOut()
-      .then()
-      .catch((error) => {
-        console.log(error.message);
-        toast.success('Successfully LogOut.');
+      .then(() => toast.success(`Successfully LogOut.`))
+      .catch(() => {
+        toast.error(`Failed to logout.`);
       });
   };
   const menuItems = (
@@ -28,6 +27,9 @@ const Navbar = () => {
       </li>
       <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
         <NavLink to='/contact'>Contact</NavLink>
+      </li>
+      <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
+        <NavLink to='/dashboard'>Dashboard</NavLink>
       </li>
       <li className='font-semibold text-amber-700 hover:text-amber-100 hover:bg-gray-600 p-2'>
         {user ? (
