@@ -4,27 +4,30 @@ import DashMenu from '../Dashboard/DashMenu/DashMenu';
 const DashboardLayer = () => {
   return (
     <div>
-      <h2 className='text-3xl font-bold text-center uppercase py-10'>
+      <h2 className='text-3xl font-bold text-center uppercase py-10 md:tracking-[5rem]'>
         dashboard
       </h2>
 
-      <div className='drawer drawer-mobile lg:drawer-open'>
+      <div className='drawer lg:drawer-open'>
         <input id='my-drawer-2' type='checkbox' className='drawer-toggle' />
-        <div className='drawer-content px-5  bg-green-200'>
+        <div className='drawer-content flex flex-col items-start w-full'>
+          <Outlet />
           <label
             htmlFor='my-drawer-2'
             className='btn btn-primary drawer-button lg:hidden'
           >
-            Open drawer
+            Open Dashboard
           </label>
-          <Outlet />
         </div>
-        <div className='drawer-side bg-[#D1A054]'>
-          <div>
+        <div className='drawer-side'>
+          <label
+            htmlFor='my-drawer-2'
+            aria-label='close sidebar'
+            className='drawer-overlay'
+          ></label>
+          <ul className='menu p-4 w-80 min-h-full bg-base-200 text-base-content'>
             <DashMenu />
-          </div>
-          <label htmlFor='my-drawer-2' className='drawer-overlay'></label>
-          <ul className='menu p-4 w-80  text-white font-bold'></ul>
+          </ul>
         </div>
       </div>
     </div>
