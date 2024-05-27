@@ -34,7 +34,7 @@ const SignUp = () => {
         .then((result) => {
           const loggedUser = result.user;
           console.log(loggedUser);
-          updateUserProfile(name, url)
+          updateUserProfile(name)
             .then(() => {
               //saved user
             })
