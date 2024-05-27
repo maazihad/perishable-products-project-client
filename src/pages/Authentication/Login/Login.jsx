@@ -1,14 +1,44 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../../../components/SocialLogin/SocialLogin';
+import { useContext } from 'react';
+import { AuthContext } from '../../../providers/AuthProvider';
+import Swal from 'sweetalert2';
+import toast from 'react-hot-toast';
 
 const Login = () => {
+  const { signIn } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const location = useLocation();
+  console.log(location);
+  const from = location.state?.from?.pathname || '/';
   const handleLogin = (event) => {
     event.preventDefault();
     const form = event.target;
     const email = form.email.value;
     const password = form.password.value;
 
-    console.log(email, password);
+    const loginInfo = {
+      email,
+      password,
+    };
+    console.log(loginInfo);
+
+    signIn(email, password)
+      .then((res) => {
+        const currentUser = res.user;
+        console.log(currentUser);
+        if (currentUser) {
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Successfully You Login!!!',
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        }
+        navigate(from, { replace: true });
+      })
+      .catch((err) => toast(err.message));
   };
 
   return (
