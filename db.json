@@ -10,15 +10,6 @@
       "rating": 4.8
     },
     {
-      "id": "2",
-      "product_name": "Jute Market Tote",
-      "product_img": "https://www.thetriostore.com/UserFiles/Images/b729737a-cc7c-ed11-8111-6805ca21b81d.jpeg",
-      "price": 18.5,
-      "features": "Eco-friendly, Spacious, Reusable",
-      "description": "Say goodbye to single-use plastic bags with this eco-friendly jute market tote. Crafted from natural jute fibers, this spacious tote is perfect for carrying groceries, beach essentials, or everyday items. Its sturdy construction and reusable design make it a sustainable choice for your shopping needs.",
-      "rating": 4.6
-    },
-    {
       "id": "3",
       "product_name": "Bamboo Cutting Board",
       "product_img": "https://images.othoba.com/images/thumbs/0593043_bamboo-cutting-and-chopping-board-with-stainless-steel-handle-copy.jpeg",
@@ -89,24 +80,6 @@
       "features": "Multi-purpose, Sturdy, Eco-friendly",
       "description": "Versatile and eco-friendly, this palm leaf basket from Gram Bangla is the perfect blend of form and function. Whether used for storage or decoration, its sturdy construction ensures it can handle a variety of uses. Add a touch of natural charm to your home with this sustainable accessory.",
       "rating": 4.7
-    },
-    {
-      "id": "19",
-      "product_name": "fafadf",
-      "product_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiB2E79LWVUoq4bDADmjZbQTQrfjuR2OKCsA&s",
-      "description": "fakfjakfja fjakjf afj a",
-      "features": "343",
-      "price": "33",
-      "rating": "5"
-    },
-    {
-      "id": "33",
-      "product_name": "fafa",
-      "product_img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-      "description": "fafafaf",
-      "features": "3faf",
-      "price": "33",
-      "rating": "3"
     }
   ]
 }

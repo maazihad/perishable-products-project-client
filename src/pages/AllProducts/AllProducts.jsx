@@ -10,6 +10,11 @@ const AllProducts = () => {
       .get('http://localhost:3000/products')
       .then((data) => setProducts(data.data));
   }, []);
+
+  const handleDeleteProduct = (id) => {
+    setProducts(products.filter((products) => products.id !== id));
+  };
+
   return (
     <div>
       <h1 className='text-4xl font-black text-center'>All Products</h1>
@@ -27,12 +32,17 @@ const AllProducts = () => {
               <th>Image & Title</th>
               <th>Description</th>
               <th>Price</th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
             {/* row 1 */}
             {products.map((product) => (
-              <ProductsRow key={product.id} product={product}></ProductsRow>
+              <ProductsRow
+                key={product.id}
+                product={product}
+                handleDeleteProduct={handleDeleteProduct}
+              ></ProductsRow>
             ))}
           </tbody>
         </table>
