@@ -30,12 +30,12 @@ const DashMenu = () => {
       <div className='flex flex-col items-start mt-2 ml-10'>
         <Link to='/dashboard'>
           <p className='mx-2 mt-2 font-medium text-gray-600  hover:underline'>
-            {user?.displayName}
+            <strong>Name:</strong> {user?.displayName}
           </p>
         </Link>
         <Link to='/dashboard'>
           <p className='mx-2 mt-1 text-sm font-medium text-gray-600  hover:underline'>
-            <strong>User:</strong> {user?.email}
+            <strong>Email:</strong> {user?.email}
           </p>
         </Link>
         <ul>
