@@ -21,9 +21,7 @@ const ProductDetails = () => {
           <p>Rating : {rating}</p>
           <p>Price : ${price}</p>
         </div>
-        <div className='card-actions justify-end'>
-          <button className='btn btn-primary'>Add Products</button>
-        </div>
+        <div className='card-actions justify-end'></div>
       </div>
     </div>
   );

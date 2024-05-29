@@ -13,6 +13,7 @@ import AllProducts from '../pages/AllProducts/AllProducts';
 import SecureRoute from './SecureRoute';
 import AddProduct from '../pages/AddProduct/AddProduct';
 import EditProduct from '../pages/EditProduct/EditProduct';
+import Dashboard from '../Dashboard/Dashboard/Dashboard';
 
 const router = createBrowserRouter([
   {
@@ -75,7 +76,11 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: 'all-products/',
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>,
+      },
+      {
+        path: 'all-products',
         element: (
           <SecureRoute>
             <AllProducts></AllProducts>
