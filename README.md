@@ -30,4 +30,4 @@ This project is a React application that includes several static pages and a dyn
 1. Clone the repository:
 
    ```bash
-   git clone <https://github.com/maazihad/perishable-products-project-client.git>
+   git clone https://github.com/maazihad/perishable-products-project-client.git
