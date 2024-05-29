@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Swal from 'sweetalert2';
 
 const AddProduct = () => {
   const handleAddProduct = async (event) => {
@@ -31,6 +32,13 @@ const AddProduct = () => {
     })
       .then((res) => res.json())
       .then((dta) => {
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Product Successfully Added.',
+          showConfirmButton: false,
+          timer: 1500,
+        });
         console.log(dta);
         form.reset();
       });

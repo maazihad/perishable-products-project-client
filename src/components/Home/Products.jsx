@@ -3,6 +3,7 @@ import ProductCart from './ProductCart';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+  const [showProducts, setShowProducts] = useState(false);
 
   useEffect(() => {
     fetch('http://localhost:3000/products')
@@ -18,9 +19,27 @@ const Products = () => {
         </h2>
       </div>
       <div className='md:flex flex-wrap gap-2 my-5 justify-between'>
-        {products.map((product) => (
-          <ProductCart key={product.id} product={product}></ProductCart>
-        ))}
+        {showProducts
+          ? products.map((product) => (
+              <ProductCart key={product.id} product={product}></ProductCart>
+            ))
+          : products
+              .reverse()
+              .slice(0, 6)
+              .map((product) => (
+                <ProductCart key={product.id} product={product}></ProductCart>
+              ))}
+      </div>
+
+      <div className='text-center my-5'>
+        {!showProducts && (
+          <button
+            onClick={() => setShowProducts(true)}
+            className='btn mt-auto text-amber-100 bg-red-900  px-5 rounded-lg hover:bg-red-700 duration-300 font-medium border-0 capitalize'
+          >
+            See More Products
+          </button>
+        )}
       </div>
     </section>
   );

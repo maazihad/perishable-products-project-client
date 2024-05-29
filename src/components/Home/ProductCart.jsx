@@ -29,7 +29,9 @@ const ProductCart = ({ product }) => {
         </p>
         <div className='card-actions justify-end'>
           <Link to={`/products/${id}`}>
-            <button className='btn btn-sm  btn-primary'>See Details</button>
+            <button className='btn btn-sm  btn-primary bg-red-700 hover:bg-red-900 text-white duration-500'>
+              See Details
+            </button>
           </Link>
         </div>
       </div>

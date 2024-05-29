@@ -80,6 +80,51 @@
       "features": "Multi-purpose, Sturdy, Eco-friendly",
       "description": "Versatile and eco-friendly, this palm leaf basket from Gram Bangla is the perfect blend of form and function. Whether used for storage or decoration, its sturdy construction ensures it can handle a variety of uses. Add a touch of natural charm to your home with this sustainable accessory.",
       "rating": 4.7
+    },
+    {
+      "id": "30",
+      "product_name": "Wikker Rattan",
+      "product_img": "https://as1.ftcdn.net/v2/jpg/02/55/19/04/1000_F_255190438_rCPCjysPi5M2g4A3Vcj07yJ8xbq3222j.jpg",
+      "description": "Wicker marketRattan basket.Rattan or bamboo handicraft hand made from natural straw basket.Basket wicker is Thai handmade. it is woven bamboo texture for background and design.",
+      "features": "Attractive, Beautiful, Long Lusting",
+      "price": "33",
+      "rating": "3"
+    },
+    {
+      "id": "33",
+      "product_name": "Bamboo Product",
+      "product_img": "https://baotrungrattan.com/wp-content/uploads/2021/01/post3.jpg",
+      "description": "amboo and rattan furniture is one of the familiar furniture items used in many families, especially in this hot summer.  However, despite using many bamboo and rattan furniture, but not everyone can know how to preserve these items, here are some great ways to preserve bamboo and rattan furniture for you.",
+      "features": "Disadvantages of woven bamboo and rattan furniture",
+      "price": "45",
+      "rating": "3"
+    },
+    {
+      "id": "33",
+      "product_name": "Bamboo Product",
+      "product_img": "https://baotrungrattan.com/wp-content/uploads/2021/01/post3.jpg",
+      "description": "amboo and rattan furniture is one of the familiar furniture items used in many families, especially in this hot summer.  However, despite using many bamboo and rattan furniture, but not everyone can know how to preserve these items, here are some great ways to preserve bamboo and rattan furniture for you.",
+      "features": "Disadvantages of woven bamboo and rattan furniture",
+      "price": "45",
+      "rating": "3"
+    },
+    {
+      "id": "55",
+      "product_name": "Bamboo Product",
+      "product_img": "https://baotrungrattan.com/wp-content/uploads/2021/01/post3.jpg",
+      "description": "Bamboo and rattan furniture is one of the familiar furniture items used in many families, especially in this hot summer.  However, despite using many bamboo and rattan furniture, but not everyone can know how to preserve these items, here are some great ways to preserve bamboo and rattan furniture for you.",
+      "features": "Disadvantages of woven bamboo and rattan furniture",
+      "price": "33",
+      "rating": "4"
+    },
+    {
+      "id": "56",
+      "product_name": "Rotan Products",
+      "product_img": "https://as1.ftcdn.net/v2/jpg/02/55/20/16/1000_F_255201665_hAQRcixYAFnS1lBohY0lQUtl1QsctWlR.jpg",
+      "description": "Wicker market.Rattan basket.Rattan or bamboo handicraft hand made from natural straw basket.Basket wicker is Thai handmade. it is woven bamboo texture for background and design.",
+      "features": "Wicker market.Rattan basket.Rattan or bamboo",
+      "price": "42",
+      "rating": "4"
     }
   ]
 }
